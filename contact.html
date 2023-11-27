@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+Student Name: Kambrya Carter
+File Name:contact.html
+Date: 11/15/2023
+-->
+
+<html lang="en">
+    <head>
+        <title>Contact Us | Healthcare Importance</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Contact us at (800)120-5004, or at contact@whyhealthcare.com, to learn more about how you can receive healthcare.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+	
+    <body>
+       <!-- Skip to Content Link -->  
+<a class="skip" href="#content">Skip to Content</a>
+      <!-- Mobile Nav -->  
+    <nav class="mobile-nav">
+        <div id="menu-links">
+          <a href="./">Home</a>
+          <a href="importance.html">Importance</a>
+          <a href="data.html">Data</a>
+          <a href="faqs.html">FAQs</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+
+        <header>
+             <h1>Healthcare Importance&#129658;</h1>
+        </header>
+
+        <nav class="tab-desk">
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./importance">Importance</a></li>
+            <li><a href="./data">Data</a></li>
+            <li><a href="./faqs">FAQs</a></li>
+            <li><a href="./contact">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <main id="content">
+          <div id="contact">
+      <h3>You can reach us at:</h3>
+           <p class="tel-link mobile"><a href="tel:8001205004">(800) 120-5004</a></p>
+      <p>Email: <a href="contact@whyhealthcare.com" class="email-link">contact@whyhealthcare.com</a></p>
+
+          <div id="form">
+          <h4>Complete the form below and we will contact you soon.</h4>
+
+    <form class="form-grid">  
+    <fieldset>
+      <legend>Contact Information</legend>
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName">
+        <label for="lName">Last Name:</label>
+        <input type="text" name="lName" id="lName">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone">
+    </fieldset>
+
+    <fieldset>
+        <legend>Specify Questions</legend>
+        <p>I would like more information about:</p>
+          <label for="care">
+          <input type="radio" name="info" id="care" value="Medicare">Medicare</label>
+          <label for="caid">
+          <input type="radio" name="info" id="caid" value="Medicaid">Medicaid</label>
+          <label for="insu">
+          <input type="radio" name="info" id="insu" value="Insurance">Insurance</label>
+          <label for="cost">
+          <input type="radio" name="info" id="cost" value="Healthcare Costs">Healthcare Costs</label>
+          <label for="other">
+          <input type="radio" name="info" id="other" value="Other">Other, tell us in the box below</label>
+          <textarea name="questions" df="questions" rows="5" cols="40"></textarea>
+      </fieldset>
+
+      <input type="submit" id="submit" value="Submit" class="btn">
+      
+        </form>
+        </div>
+        </div>
+        </main>
+		
+        <footer>
+            <div class="copyright">
+				<p>&copy; Copyright 2021. All Rights Reserved.</p>
+				<p><a href="contact@whyhealthcare.com">contact@whyhealthcare.com</a></p>
+			</div>
+
+			<div class="social">
+				<a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo"></a> 
+				<a href="https://www.twitter.com"  target="_blank"><img src="images/twitter-logo.png"  alt="Twitter logo"></a>
+			</div>
+        </footer>
+
+        <script src="scripts/script.js"></script> 
+    </body>
+</html>
